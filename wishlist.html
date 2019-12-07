@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Collapsible sidebar using Bootstrap 4</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- Font Awesome JS -->
+  <script src="https://kit.fontawesome.com/3262c2b10b.js" crossorigin="anonymous"></script>
+
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="css/style4.css">
+
+
+
+
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">
+              <img src="images/Logo-02.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="list-group list-group-flush">
+      
+              <a href="index4.html" class="list-group-item list-group-item-action bg-light">
+                <i class="fas fa-home"></i>
+                Home</a>
+              <a href="trending.html" class="list-group-item list-group-item-action bg-light">
+                <i class="fas fa-fire"></i>
+                Trending</a>
+              <a href="subscription.html" class="list-group-item list-group-item-action bg-light">
+                <i class="fab fa-youtube"></i>
+                Subscription</a>
+              <a href="wishlist.html" class="list-group-item list-group-item-action bg-light">
+                <i class="fas fa-clipboard-list"></i>
+                Wishlist</a>
+                <a href="demand.html" class="list-group-item list-group-item-action bg-light">
+                    <i class="fas fa-cloud-meatball"></i>
+                    Demands</a>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                class="dropdown-toggle list-group-item list-group-item-action bg-light">
+                <i class="fas fa-copy"></i>
+                Categories
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#" class="list-group-item list-group-item-action bg-light">Phones</a>
+                </li>
+                <li>
+                  <a href="#" class="list-group-item list-group-item-action bg-light">Computers</a>
+                </li>
+                <li>
+                  <a href="#" class="list-group-item list-group-item-action bg-light">TVs</a>
+                </li>
+                <li>
+                  <a href="#" class="list-group-item list-group-item-action bg-light">Clothes</a>
+                </li>
+                <li>
+                  <a href="#" class="list-group-item list-group-item-action bg-light">Kitchen Machines</a>
+                </li>
+              </ul>
+      
+            </div>
+      
+          </div>
+          <!-- /#sidebar-wrapper -->
+      
+          <!-- Page Content -->
+          <div id="page-content-wrapper">
+      
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+              <nav class="navbar navbar-light bg-light">
+                <span class="navbar-brand mb-0 h1" style="color: #f2f2f2;">Wishlist</span>
+              </nav>
+              <form class="form-inline my-2 my-lg-0 ml-auto">
+      
+                <button class="btn btn-outline-secondary my-2 my-sm-0 mr-2" type="submit">Sign In</button>
+                <a href="reviewer-home.html"><button type="button" class="btn btn-dark my-2 my-sm-0">Become a Reviewer</button></a>
+              </form>
+            </nav>
+
+      <div class="container-fluid">
+
+        <section class="m-2">
+          <div class="row">
+              <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/AekKrXNtJq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                      </div>
+                      <h5 class="card-title">video name</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+    
+                      <span class="text-left  text-muted">1000 view</span> .
+                      <span class="date text-right text-muted">10 moths ago </span>
+    
+                    </div>
+                  </div>
+                </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hUBsxCcJeUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  </div>
+                  <h5 class="card-title">video name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+
+                  <span class="text-left  text-muted">1000 view</span> .
+                  <span class="date text-right text-muted">10 moths ago </span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4SKN_6QOjkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  </div>
+                  <h5 class="card-title">video name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+
+                  <span class="text-left  text-muted">1000 view</span> .
+                  <span class="date text-right text-muted">10 moths ago </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="m-2">
+          <div class="row">
+              <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gLQTKwY-vJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                      </div>
+                      <h5 class="card-title">video name</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+    
+                      <span class="text-left  text-muted">1000 view</span> .
+                      <span class="date text-right text-muted">10 moths ago </span>
+    
+                    </div>
+                  </div>
+                </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AekKrXNtJq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  </div>
+                  <h5 class="card-title">video name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+
+                  <span class="text-left  text-muted">1000 view</span> .
+                  <span class="date text-right text-muted">10 moths ago </span>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9pPUDbWF1qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <h5 class="card-title">video name</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">reviewer name</h6>
+
+                  <span class="text-left  text-muted">1000 view</span> .
+                  <span class="date text-right text-muted">10 moths ago </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
